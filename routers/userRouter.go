@@ -24,4 +24,5 @@ func UserRouter(ginServer *gin.Engine) {
 	group.GET("/getZoneAndPostCount", controllers.GetUserZoneAndPostCountController)
 	// 获取用户好友
 	group.GET("/getFriend", controllers.GetUserFriendListController)
+
 }

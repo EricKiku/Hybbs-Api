@@ -13,5 +13,8 @@ func main() {
 	routers.ZoneRouter(ginServer)
 	routers.PostRouter(ginServer)
 	routers.ReplyRouter(ginServer)
+	routers.WsRouter(ginServer)
+	routers.ChatRouter(ginServer)
+	routers.SearchRouter(ginServer)
 	ginServer.Run(":1234")
 }
